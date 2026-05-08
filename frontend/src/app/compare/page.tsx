@@ -67,7 +67,7 @@ export default function ComparePage() {
   return (
     <div className="space-y-6">
       <h1 className="text-3xl font-bold">Compare Colleges</h1>
-      <div className="grid gap-3 md:grid-cols-4">
+      <div className="grid gap-3 sm:grid-cols-2 md:grid-cols-4">
         <input
           list="colleges-list"
           value={firstName}
@@ -102,7 +102,7 @@ export default function ComparePage() {
           ))}
         </datalist>
       </div>
-      <div className="flex flex-wrap gap-3">
+      <div className="flex flex-col gap-3 sm:flex-row">
         <button onClick={load} className="rounded-md bg-brand-600 px-4 py-2 text-white">
           {loading ? "Loading..." : "Compare"}
         </button>
@@ -114,7 +114,7 @@ export default function ComparePage() {
 
       {data.length > 0 && (
         <div className="overflow-x-auto rounded-xl border bg-white">
-          <table className="min-w-full text-sm">
+          <table className="min-w-full whitespace-normal text-sm">
             <tbody>
               <tr className="border-b">
                 <th className="px-4 py-3 text-left">Metric</th>
