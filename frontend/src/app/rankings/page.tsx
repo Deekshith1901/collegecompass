@@ -23,9 +23,9 @@ export default async function RankingsPage() {
             </tr>
           </thead>
           <tbody>
-            {colleges.data.map((college) => (
+            {colleges.data.map((college, index) => (
               <tr key={college.id} className="border-t">
-                <td className="px-4 py-3">#{college.ranking}</td>
+                <td className="px-4 py-3">#{index + 1}</td>
                 <td className="px-4 py-3">{college.name}</td>
                 <td className="px-4 py-3">{college.city}</td>
                 <td className="px-4 py-3">{college.rating}</td>
