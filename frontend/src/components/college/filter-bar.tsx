@@ -16,7 +16,7 @@ export const FilterBar = () => {
   };
 
   return (
-    <section className="grid gap-3 rounded-xl border bg-white p-4 md:grid-cols-4">
+    <section className="grid gap-3 rounded-xl border bg-white p-4 sm:grid-cols-2 md:grid-cols-4">
       <input
         defaultValue={searchParams.get("search") ?? ""}
         placeholder="Search college"
