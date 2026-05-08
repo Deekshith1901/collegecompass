@@ -406,7 +406,7 @@ export default function QAPage() {
                   />
                 </div>
 
-                <div className="flex gap-3">
+                <div className="flex flex-col gap-3 sm:flex-row">
                   <button
                     type="submit"
                     className="flex-1 rounded-lg bg-brand-600 px-4 py-2 text-white font-medium hover:bg-brand-700 transition"
