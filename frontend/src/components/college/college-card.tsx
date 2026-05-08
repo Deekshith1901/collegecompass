@@ -29,7 +29,7 @@ export const CollegeCard = ({ college }: Props) => (
           {college.city}, {college.state}
         </p>
       </div>
-      <div className="grid grid-cols-2 gap-2 text-sm">
+      <div className="grid grid-cols-1 gap-2 text-sm sm:grid-cols-2">
         <div className="bg-blue-50 rounded p-2">
           <p className="text-xs text-slate-600">Rating</p>
           <p className="font-semibold text-slate-900">{college.rating}⭐</p>
