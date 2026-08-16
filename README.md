@@ -15,7 +15,7 @@ A full-stack web application for exploring, comparing, and bookmarking colleges.
 
 ## Live App
 
-🔗 **[Visit College Compass](https://collegecompass.example.com)**
+🔗 **[Visit College Compass]((https://collegecompass-seven.vercel.app/))**
 
 ## Tech Stack
 
